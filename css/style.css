@@ -3,7 +3,10 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5 {
   font-weight: bold;
 }
 
@@ -42,4 +45,20 @@ h2 {
 
 .text-normal-weight {
   font-weight: normal;
+}
+
+.button-footer {
+  border: none;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.footer {
+  /* position: fixed; */
+  margin-top: 5%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
 }
