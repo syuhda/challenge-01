@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ecac499c30.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- membuat navbar di sebelah kanan -->
+    <nav class="navbar navbar-expand-lg jumbotron-background-color">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!--  -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <button class="btn btn-success">Register</button>
+              </a>
+            </li>
+          </ul>
+
+          <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Login</a>
+              </li>
+              
+            </ul> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- margin, jarak komponen atas dengan yg bawah (mb=bottom, mt=top, my=top&bottom, me=right, ms=left, mx=right&left) -->
+    <!-- padding, jarak konten dengan sekitarnya/div-nya -->
+    <!-- background _ warna text _ rounded _ arah text-->
+    <!-- class="mb-5 p-5 bg-dark text-white rounded text-center" -->
+    <div class="mb-5 p-5 jumbotron-background-color">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 p-2">
+            <div class="d-flex flex-column justify-content-center h-100 me-5">
+              <h1 class="my-2">
+                Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
+              </h1>
+              <p class="my-2 text-justify">
+                Selamat datang di Binar Car Rental. Kami menyediakan mobil
+                kualitas terbaik dengan harga terjangkau. Selalu siap melayani
+                kebutuhanmu untuk sewa mobil selama 24 jam.
+              </p>
+              <div>
+                <button type="button" class="my-2 btn btn-success">
+                  Click here for details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 p-2">
+            <img
+              src="images/cat.jpg"
+              alt="cat"
+              class="img-fluid ms-5 rounded-5"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-6 p-2">
+          <div class="d-flex justify-content-center">
+            <img
+              src="images/img-service.png"
+              alt="image service"
+              class="img-fluid me-5"
+            />
+          </div>
+        </div>
+        <div class="col-md-6 p-2">
+          <div class="ms-5">
+            <h1 class="my-2 text-justify">
+              Best Car Rental for any kind of trip in (Lokasimu)!
+            </h1>
+            <p class="my-2 text-justify">
+              Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
+              lebih murah dibandingkan yang lain, kondisi mobil baru, serta
+              kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
+              wedding, meeting, dll.
+            </p>
+
+            <h6 class="text-normal-weight my-2">
+              <span
+                ><i
+                  class="fa-sharp fa-solid fa-circle-check"
+                  style="color: #607cf1"
+                ></i
+              ></span>
+              Sewa Mobil Dengan Supir di Bali 12 Jam
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <div
+            class="bg-secondary rounded-3 text-white p-4 text-white text-justify"
+          >
+            <h3 class="text-center">Kolom 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem,
+              aliquid laboriosam! Sed quo quis quibusdam, eius corporis
+              temporibus amet mollitia cumque cum dignissimos eveniet dolores
+              sapiente aut recusandae eos ullam?
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              distinctio enim cupiditate accusantium dignissimos! Est dolorum
+              praesentium commodi, consequatur quaerat culpa, recusandae tenetur
+              repellat iure magnam quis deleniti maxime unde!
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="bg-secondary text-white rounded p-4">
+            <h3>Kolom 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem,
+              aliquid laboriosam! Sed quo quis quibusdam, eius corporis
+              temporibus amet mollitia cumque cum dignissimos eveniet dolores
+              sapiente aut recusandae eos ullam?
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              distinctio enim cupiditate accusantium dignissimos! Est dolorum
+              praesentium commodi, consequatur quaerat culpa, recusandae tenetur
+              repellat iure magnam quis deleniti maxime unde!
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="bg-secondary text-white rounded p-4">
+            <h3>Kolom 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem,
+              aliquid laboriosam! Sed quo quis quibusdam, eius corporis
+              temporibus amet mollitia cumque cum dignissimos eveniet dolores
+              sapiente aut recusandae eos ullam?
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              distinctio enim cupiditate accusantium dignissimos! Est dolorum
+              praesentium commodi, consequatur quaerat culpa, recusandae tenetur
+              repellat iure magnam quis deleniti maxime unde!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
