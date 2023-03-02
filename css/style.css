@@ -1,3 +1,36 @@
+body {
+  font-family: "Helvetica";
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+/* .border-top-left {
+  border-top-left-radius: 60px;
+  background-color: lightgreen;
+  margin-top: 10%;
+} */
+
+.btn-green {
+  background: #5cb85f;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.btn-green:hover {
+  background: #377039;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-brand-bg {
+  background-color: #0d28a6;
+  color: #0d28a6;
+  font-size: medium;
+}
+
 .text-justify {
   text-align: justify;
 }
