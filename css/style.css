@@ -85,3 +85,13 @@ h5 {
     align-items: flex-end;
   }
 }
+
+@media (max-width: 767.5px) {
+  #star-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+}

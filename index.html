@@ -80,7 +80,7 @@
     <!-- padding, jarak konten dengan sekitarnya/div-nya -->
     <!-- background _ warna text _ rounded _ arah text-->
     <!-- class="mb-5 p-5 bg-dark text-white rounded text-center" -->
-    <!-- 1 -->
+    <!-- 1-LANDING PAGE-->
     <div class="mb-5 jumbotron-background-color">
       <div class="container-fluid p-0">
         <div class="row p-0">
@@ -98,9 +98,9 @@
                 kebutuhanmu untuk sewa mobil selama 24 jam.
               </p>
               <div>
-                <button type="button" class="my-2 btn btn-green">
-                  Mulai Sewa Mobil
-                </button>
+                <a class="my-2 btn btn-green" href="#sewa-mobil" role="button"
+                  >Mulai Sewa Mobil</a
+                >
               </div>
             </div>
           </div>
@@ -273,19 +273,20 @@
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <div class="row d-flex justify-content-center">
-              <div class="col-lg-4 d-none d-lg-block" style="width: 50rem">
+              <div class="col-lg-4" style="width: 50rem">
                 <div class="card card-body" style="background-color: #f1f3ff">
                   <div class="row my-4 px-4">
-                    <div class="col-sm-3">
+                    <div class="col-md-3 d-flex justify-content-center me-2">
                       <img
                         src="images/img_photo.svg"
                         alt="avatar"
                         style="width: 150px"
                       />
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-md-8">
                       <ul
                         class="list-unstyled d-flex justify-content-left text-warning mb-0"
+                        id="star-list"
                       >
                         <li class="me-1">
                           <i class="fa fa-star fa-md"></i>
@@ -318,22 +319,24 @@
               </div>
             </div>
           </div>
+
           <div class="carousel-item" data-bs-interval="8000">
             <div class="container">
               <div class="row d-flex justify-content-center">
-                <div class="col-lg-4 d-none d-lg-block" style="width: 50rem">
+                <div class="col-lg-4" style="width: 50rem">
                   <div class="card card-body" style="background-color: #f1f3ff">
                     <div class="row my-4 px-4">
-                      <div class="col-sm-3">
+                      <div class="col-md-3 d-flex justify-content-center me-2">
                         <img
                           src="images/img_photo2.svg"
                           alt="avatar"
                           style="width: 150px"
                         />
                       </div>
-                      <div class="col-sm-9">
+                      <div class="col-md-8">
                         <ul
                           class="list-unstyled d-flex justify-content-left text-warning mb-0"
+                          id="star-list"
                         >
                           <li class="me-1">
                             <i class="fas fa-star fa-md"></i>
@@ -369,26 +372,25 @@
               </div>
             </div>
           </div>
+
           <div class="carousel-item" data-bs-interval="7000">
             <div class="container">
               <div class="row d-flex justify-content-center">
-                <div class="col-lg-4 d-none d-lg-block" style="width: 50rem">
-                  <div
-                    class="card card-body w-auto"
-                    style="background-color: #f1f3ff"
-                  >
+                <div class="col-lg-4" style="width: 50rem">
+                  <div class="card card-body" style="background-color: #f1f3ff">
                     <div class="row my-4 px-4">
-                      <div class="col-sm-3">
+                      <div class="col-md-3 d-flex justify-content-center me-2">
                         <img
                           class="rounded-circle"
-                          src="images/img_photo3.webp"
+                          src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
                           alt="avatar"
                           style="width: 150px"
                         />
                       </div>
-                      <div class="col-sm-9">
+                      <div class="col-md-8">
                         <ul
                           class="list-unstyled d-flex justify-content-left text-warning mb-0"
+                          id="star-list"
                         >
                           <li class="me-1">
                             <i class="fas fa-star fa-md"></i>
@@ -415,7 +417,7 @@
                           deleniti laborum fugit pariatur!
                         </p>
                         <h6 style="font-weight: bold">
-                          Steven Doe 28, Kaliurang
+                          Maria Venn 38, Kaliurang
                         </h6>
                       </div>
                     </div>
@@ -455,7 +457,7 @@
     </div>
 
     <!-- 5-SEWA MOBIL -->
-    <div class="container my-5 pt-4 text-white text-center">
+    <div class="container my-5 pt-4 text-white text-center" id="sewa-mobil">
       <div
         class="card card-body my-4"
         style="background-color: #0d28a6; border: none"
@@ -467,9 +469,9 @@
           tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div>
-          <button type="button" class="mb-5 mt-4 btn btn-green">
-            Mulai Sewa Mobil
-          </button>
+          <a class="mb-5 mt-4 btn btn-green" href="#home" role="button"
+            >Mulai Sewa Mobil</a
+          >
         </div>
       </div>
     </div>
