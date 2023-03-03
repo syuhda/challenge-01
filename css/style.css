@@ -12,7 +12,7 @@ h5 {
 
 /* .border-top-left {
   border-top-left-radius: 60px;
-  background-color: lightgreen;
+  background-color: #0d28a6;
   margin-top: 10%;
 } */
 
@@ -35,12 +35,6 @@ h5 {
   font-weight: bold;
   color: #ffffff;
 }
-
-/* .navbar-brand-bg {
-  background-color: #0d28a6;
-  color: #0d28a6;
-  font-size: medium;
-} */
 
 .text-justify {
   text-align: justify;
