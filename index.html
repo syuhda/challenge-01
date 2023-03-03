@@ -17,7 +17,7 @@
     <!-- membuat navbar di sebelah kanan -->
     <nav class="navbar navbar-expand-lg jumbotron-background-color">
       <div class="container">
-        <a class="navbar-brand navbar-brand-bg" href="#">Offcanvas navb</a>
+        <a class="navbar-brand navbar-brand-bg" href="#">Binar Car Rental</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,7 +34,7 @@
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BCR</h5>
             <button
               type="button"
               class="btn-close"
@@ -44,22 +44,22 @@
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-xl-center">
-              <li class="nav-item">
+              <li class="nav-item me-2">
                 <a class="nav-link active" aria-current="page" href="#"
                   >Our Services</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item me-2">
                 <a class="nav-link active" aria-current="page" href="#"
                   >Why Us</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item me-2">
                 <a class="nav-link active" aria-current="page" href="#"
                   >Testimonial</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item me-2">
                 <a class="nav-link active" aria-current="page" href="#">FAQ</a>
               </li>
               <li class="nav-item">
@@ -78,11 +78,12 @@
     <!-- background _ warna text _ rounded _ arah text-->
     <!-- class="mb-5 p-5 bg-dark text-white rounded text-center" -->
     <div class="mb-5 jumbotron-background-color">
-      <div class="container me-0 p-0">
+      <div class="container-fluid p-0">
         <div class="row p-0">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <div
-              class="d-flex flex-column justify-content-center h-100 me-5 p-2"
+              class="d-flex flex-column justify-content-center h-100 ps-4"
+              style="margin-left: 8%"
             >
               <h1 class="my-2">
                 Sewa & Rental Mobil Terbaik di Kawasan Yogyakarta
@@ -99,8 +100,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <img src="images/img_car.svg" alt="car" class="img-fluid mt-4" />
+          <div class="col-lg-6">
+            <div class="d-flex flex-column justify-content-center">
+              <img src="images/img_car.svg" alt="car" class="img-fluid mt-4" />
+            </div>
           </div>
         </div>
       </div>
@@ -118,7 +121,7 @@
           </div>
         </div>
         <div class="col-md-6 p-2">
-          <div class="ms-5">
+          <div class="ms-1">
             <h2 class="my-2">
               Best Car Rental For Any Kind of Trip in Yogyakarta!
             </h2>
@@ -165,7 +168,7 @@
               /></span>
               Gratis Antar - Jemput Mobil di Bandara
             </h6>
-            <h6 class="text-normal-weight my-3 mb-5">
+            <h6 class="text-normal-weight my-3">
               <span
                 ><img
                   src="images/icon_check.svg"
@@ -183,7 +186,7 @@
       <h2>Why Us?</h2>
       <p>Mengapa harus pilih Binar Car Rental?</p>
       <div class="row mt-4 justify-content-center">
-        <div class="col-sm-3">
+        <div class="col-lg-3 mb-3">
           <div
             class="bg-white rounded-3 p-4 border border-dark border-opacity-25"
           >
@@ -199,7 +202,7 @@
             </p>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-lg-3 mb-3">
           <div
             class="bg-white rounded-3 p-4 border border-dark border-opacity-25"
           >
@@ -215,7 +218,7 @@
             </p>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-lg-3 mb-3">
           <div
             class="bg-white rounded-3 p-4 border border-dark border-opacity-25"
           >
@@ -231,7 +234,7 @@
             </p>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-lg-3 mb-3">
           <div
             class="bg-white rounded-3 p-4 border border-dark border-opacity-25"
           >
@@ -250,6 +253,7 @@
       </div>
     </div>
 
+    <!-- TESTIMONIAL -->
     <div class="container my-5 pt-4">
       <h2 class="text-center">Testimonial</h2>
       <p class="text-center my-4 pb-3">
@@ -260,7 +264,7 @@
         class="carousel carousel-dark slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
+        <div class="carousel-inner d-flex justify-content-lg-between">
           <div class="carousel-item active" data-bs-interval="10000">
             <div class="container">
               <div class="row d-flex justify-content-center">
@@ -414,24 +418,27 @@
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="d-flex justify-content-center mt-5">
+          <button
+            class="carousel-control-prev position-relative"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next position-relative"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div></div>
       </div>
     </div>
 
@@ -490,7 +497,10 @@
               </div>
             </div>
             <div class="accordion-item mb-3">
-              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <h2
+                class="accordion-header border-top"
+                id="panelsStayOpen-headingTwo"
+              >
                 <button
                   class="accordion-button collapsed"
                   type="button"
@@ -517,7 +527,10 @@
               </div>
             </div>
             <div class="accordion-item mb-3">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <h2
+                class="accordion-header border-top"
+                id="panelsStayOpen-headingThree"
+              >
                 <button
                   class="accordion-button collapsed"
                   type="button"
@@ -544,7 +557,10 @@
               </div>
             </div>
             <div class="accordion-item mb-3">
-              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <h2
+                class="accordion-header border-top"
+                id="panelsStayOpen-headingFour"
+              >
                 <button
                   class="accordion-button collapsed"
                   type="button"
@@ -575,7 +591,10 @@
               </div>
             </div>
             <div class="accordion-item mb-3">
-              <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+              <h2
+                class="accordion-header border-top"
+                id="panelsStayOpen-headingFive"
+              >
                 <button
                   class="accordion-button collapsed"
                   type="button"
@@ -609,26 +628,38 @@
     <div class="footer">
       <div class="container my-5 pt-4">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-md-4">
             <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
             <p>binarcarrental@gmail.com</p>
             <p>081-233-334-808</p>
           </div>
-          <div class="col-sm-2">
-            <p><button class="button-footer">Our services</button></p>
-            <p><button class="button-footer">Why Us</button></p>
-            <p><button class="button-footer">Testimonial</button></p>
-            <p><button class="button-footer">FAQ</button></p>
+          <div class="col-md-2">
+            <p><a class="a-footer" href="#">Our services</a></p>
+            <p><a class="a-footer" href="#">Why Us</a></p>
+            <p><a class="a-footer" href="#">Testimonial</a></p>
+            <p><a class="a-footer" href="#">FAQ</a></p>
           </div>
-          <div class="col-sm-3">
+          <div class="col-md-3 mb-2">
             <p>Connect with us</p>
-            <img src="images/icon_facebook.svg" alt="facebook" />
-            <img src="images/icon_instagram.svg" alt="instagram" class="mx-2" />
-            <img src="images/icon_twitter.svg" alt="twitter" class="me-2" />
-            <img src="images/icon_mail.svg" alt="email" class="me-2" />
-            <img src="images/icon_twitch.svg" alt="twitch" />
+            <img
+              src="images/icon_facebook.svg"
+              alt="facebook"
+              class="me-2 mb-2"
+            />
+            <img
+              src="images/icon_instagram.svg"
+              alt="instagram"
+              class="me-2 mb-2"
+            />
+            <img
+              src="images/icon_twitter.svg"
+              alt="twitter"
+              class="me-2 mb-2"
+            />
+            <img src="images/icon_mail.svg" alt="email" class="me-2 mb-2" />
+            <img src="images/icon_twitch.svg" alt="twitch" class="me-2 mb-2" />
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-3">
             <p>Copyright Binar 2022</p>
             <p
               style="background-color: #0d28a6; width: 120px; height: 35px"
