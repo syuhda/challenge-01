@@ -16,6 +16,14 @@ h5 {
   margin-top: 10%;
 } */
 
+.nav-link {
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #0d28a6;
+}
+
 .btn-green {
   background: #5cb85f;
   font-weight: bold;
